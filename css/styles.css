@@ -1,0 +1,93 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+    font-family: "Gotham-Black";
+    src: url("./fonts/Gotham-Black.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+        url("./fonts/Gotham-Black.otf") format("opentype"), /* Open Type Font */
+        url("./fonts/Gotham-Black.svg") format("svg"), /* Legacy iOS */
+        url("./fonts/Gotham-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+        url("./fonts/Gotham-Black.woff") format("woff"), /* Modern Browsers */
+        url("./fonts/Gotham-Black.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: "Gotham-Medium";
+    src: url("./fonts/Gotham-Medium.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+        url("./fonts/Gotham-Medium.otf") format("opentype"), /* Open Type Font */
+        url("./fonts/Gotham-Medium.svg") format("svg"), /* Legacy iOS */
+        url("./fonts/Gotham-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+        url("./fonts/Gotham-Medium.woff") format("woff"), /* Modern Browsers */
+        url("./fonts/Gotham-Medium.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    html, body {
+        background-color: black;
+        font-family: "Gotham-Medium", sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        width: 100%;
+    
+    }
+    .video-js .vjs-big-play-button {
+        position: absolute;
+        top: 50% !important;
+        right: 20% !important;
+        left: auto !important;
+    }
+    .concert {
+        background-color: rgb(241,207,0);
+        border-top: 1px solid rgb(0,0,0);
+        border-bottom: 1px solid rgb(0,0,0);
+        border-right: none;
+        border-left: none;
+        height: auto;
+        padding-left: 0px !important;
+    }
+    .date {
+        background-color: black;
+        color: rgb(241,207,0);
+        font-size: 2em;
+        padding-top: 20px;
+        width:340px;
+        text-align: center;
+        
+    }
+    .ville {
+        font-size: 5em;
+        font-family: "Gotham-Black";
+        /* padding-top: -1.5em; */
+    }
+    .salle {
+        font-size: 3em;
+        /* margin-top: -1.2em; */
+    }
+    .lien_achat {
+        position: absolute;
+        top:50%;
+        font-size: 1.2em;
+        font-family: "Gotham-Black";
+        margin-top: -0.5em;
+        text-align: center;
+        color: white;
+    }
+    .artiste {
+        position: absolute;
+        top: 35%;
+        font-size: 4em;
+        color: white;
+        text-align: center;
+    }
+    .bottom {
+        position: relative;
+    }
+    hr {
+        border: 0;
+        border-top: 4px solid rgb(255,255,255);
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 0em;
+    }
