@@ -11,6 +11,7 @@
     <link href="https://vjs.zencdn.net/7.2.4/video-js.css" rel="stylesheet">
     <!-- custom styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-media.css">
     <!-- If you'd like to support IE8 (for Video.js versions prior to v7) 
     <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
     -->
@@ -18,9 +19,9 @@
     <title>Agathe Bonin</title>
   </head>
   <body>
-    <div class="container-fluid">
-        <img class="img-fluid" src="images/poster.jpg" />
-        <!-- <video id="my-video" class="video-js vjs-default-skin vjs-16-9" controls preload="auto"
+    <div id="top" class="container-fluid">
+        <!-- <img class="img-fluid" src="images/poster.jpg" />
+        <video id="my-video" class="video-js vjs-default-skin vjs-16-9" controls preload="auto"
             poster="images/poster.jpg" data-setup="{'fluid': true}">
             <source src="videos/AgatheBonin.mp4" type='video/mp4'>
             <p class="vjs-no-js">
@@ -29,46 +30,44 @@
             </p>
         </video> -->
     </div>
-    <div class="container-fluid concert">
-      <div class="row">
-        <div class="col concert ">
-          <div class="date col-3 ">14 NOV</div>
-          <div class="ville col-8 offset-4">EVREUX</div>
-          <div class="lien_achat col-2 offset-10"><a>BUY TICKET</a><hr></div>
-          <div class="salle col-8 offset-4">LE CADRAN</div>
+    <div class="container-fluid premiere">
+        <div class="row">
+        <div class="col premiere">
+            <div class="col align-self-center">PREMIÈRE PARTIE DE</div>
+            <div class="col align-self-center willem">CHRISTOPHE WILLEM</div>
           
         </div>
       </div>
-      <div class="row">
-          <div class="col concert ">
-            <div class="date col-3 ">14 NOV</div>
-            <div class="ville col-8 offset-4">EVREUX</div>
-            <div class="lien_achat col-2 offset-10"><a>BUY TICKET</a><hr></div>
-            <div class="salle col-8 offset-4">LE CADRAN</div>
-            
-          </div>
+    </div>
+    <div class="container-fluid concert">
+        <div class="row concert justify-content-between">
+            <div class="date col-3">14 NOV</div>
+            <div class="lien_achat col-9"><a class="sousligne">BUY TICKET</a></div>
+            <div class="ville col-8 offset-1">EVREUX</div>        
+            <div class="salle col-8 offset-1">LE CADRAN</div>
         </div>
-        <div class="row">
-            <div class="col concert ">
-              <div class="date col-3 ">14 NOV</div>
-              <div class="ville col-8 offset-4">EVREUX</div>
-              <div class="lien_achat col-2 offset-10"><a>BUY TICKET</a><hr></div>
-              <div class="salle col-8 offset-4">LE CADRAN</div>
-              
-            </div>
-          </div>
-          <div class="row">
-              <div class="col concert ">
-                <div class="date col-3 ">14 NOV</div>
-                <div class="ville col-8 offset-4">EVREUX</div>
-                <div class="lien_achat col-2 offset-10"><a>BUY TICKET</a><hr></div>
-                <div class="salle col-8 offset-4">LE CADRAN</div>  
-              </div>
-          </div>
+        <div class="row concert justify-content-between">
+            <div class="date col-3">14 NOV</div>
+            <div class="lien_achat col-9"><a class="sousligne">BUY TICKET</a></div>
+            <div class="ville col-8 offset-1">EVREUX</div>        
+            <div class="salle col-8 offset-1">LE CADRAN</div>
+        </div>
+        <div class="row concert justify-content-between">
+            <div class="date col-3">14 NOV</div>
+            <div class="lien_achat col-9"><a class="sousligne">BUY TICKET</a></div>
+            <div class="ville col-8 offset-1">EVREUX</div>        
+            <div class="salle col-8 offset-1">LE CADRAN</div>
+        </div>
+        <div class="row concert justify-content-between">
+            <div class="date col-3">14 NOV</div>
+            <div class="lien_achat col-9"><a class="sousligne">BUY TICKET</a></div>
+            <div class="ville col-8 offset-1">EVREUX</div>        
+            <div class="salle col-8 offset-1">LE CADRAN</div>
+        </div>
     </div>
     <div class="container-fluid bottom">
-        <img class="img-fluid" src="images/bottom.jpg" />
-        <div class="artiste col-7 offset-5">AGATHE BONIN</div>
+<!--        <img class="img-fluid" src="images/bottom@sm.jpg" />-->
+        <div class="artiste col-12">AGATHE BONIN</div>
     </div>
     <!-- VideoJs Javascript -->
     <script src="https://vjs.zencdn.net/7.2.4/video.js"></script>

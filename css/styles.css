@@ -24,70 +24,83 @@
     font-style: normal;
     }
     
-    html, body {
-        background-color: black;
-        font-family: "Gotham-Medium", sans-serif;
-        -ms-text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
-        width: 100%;
-    
-    }
-    .video-js .vjs-big-play-button {
-        position: absolute;
-        top: 50% !important;
-        right: 20% !important;
-        left: auto !important;
-    }
-    .concert {
-        background-color: rgb(241,207,0);
-        border-top: 1px solid rgb(0,0,0);
-        border-bottom: 1px solid rgb(0,0,0);
-        border-right: none;
-        border-left: none;
-        height: auto;
-        padding-left: 0px !important;
-    }
-    .date {
-        background-color: black;
-        color: rgb(241,207,0);
-        font-size: 2em;
-        padding-top: 20px;
-        width:340px;
-        text-align: center;
-        
-    }
-    .ville {
-        font-size: 5em;
-        font-family: "Gotham-Black";
-        /* padding-top: -1.5em; */
-    }
-    .salle {
-        font-size: 3em;
-        /* margin-top: -1.2em; */
-    }
-    .lien_achat {
-        position: absolute;
-        top:50%;
-        font-size: 1.2em;
-        font-family: "Gotham-Black";
-        margin-top: -0.5em;
-        text-align: center;
-        color: white;
-    }
-    .artiste {
-        position: absolute;
-        top: 35%;
-        font-size: 4em;
-        color: white;
-        text-align: center;
-    }
-    .bottom {
-        position: relative;
-    }
-    hr {
-        border: 0;
-        border-top: 4px solid rgb(255,255,255);
-        margin-left: 30%;
-        margin-right: 30%;
-        margin-top: 0em;
-    }
+html, body {
+    background-color: black;
+    font-family: "Gotham-Medium", sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+
+}
+.video-js .vjs-big-play-button {
+    position: absolute;
+    top: 50% !important;
+    right: 20% !important;
+    left: auto !important;
+}
+.premiere {
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    line-height: 0.75em;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+.willem {
+    font-weight: bold;
+}
+.concert {
+    background-color: rgb(241,207,0);
+    border-top: 1px solid rgb(0,0,0);
+    border-bottom: 1px solid rgb(0,0,0);
+    border-right: none;
+    border-left: none;
+    height: auto;
+    padding-left: 0px !important;
+}
+.date {
+    background-color: black;
+    color: rgb(241,207,0);
+    font-size: 2em;
+    padding-top: 20px;
+    width:340px;
+    text-align: center;
+
+}
+.ville {
+    font-size: 3.5em;
+    font-family: "Gotham-Black";
+    /* padding-top: -1.5em; */
+}
+.salle {
+    font-size: 2.5em;
+    /* margin-top: -1.2em; */
+}
+.lien_achat {
+    font-size: 1.5em;
+    font-family: "Gotham-Black";
+    text-align: right;
+    color: white;
+    margin-top: 5px;
+}
+.sousligne {
+    border-bottom: 6px solid white;
+    padding-bottom: 5px;
+}
+.artiste {
+    position: absolute;
+    top: 35%;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+.bottom {
+    position: relative;
+}
+hr {
+    border: 0;
+    border-top: 4px solid rgb(255,255,255);
+    margin-left: 20%;
+    margin-top: 0em;
+}
