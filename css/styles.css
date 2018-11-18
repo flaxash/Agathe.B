@@ -77,24 +77,26 @@ html, body {
 .date {
     background-color: black;
     color: rgb(241,207,0);
-    font-size: 2em;
-    padding-top: 20px;
+    font-size: 1.8em;
+    line-height: 2em;
     width:340px;
     text-align: center;
 
 }
 .ville {
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-family: "Gotham-Black";
-    margin-bottom: -0.5em;
+    margin-bottom: -0.3em;
     /* padding-top: -1.5em; */
 }
 .salle {
-    font-size: 2.5em;
+    font-size: 2em;
+    line-height: 0.8em;
+    margin-bottom: 0.5em;
     /* margin-top: -1.2em; */
 }
 .lien_achat {
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: "Gotham-Black";
     text-align: right;
     color: white;
@@ -106,10 +108,11 @@ html, body {
 }
 .infosartiste {
      position: absolute;
-    top: 35%;
+    top: 50%;
 }
 .artiste {
-    font-size: 4em;
+    font-size: 2em;
+    font-weight: bold;
     color: white;
     text-align: center;
 }
@@ -120,6 +123,7 @@ html, body {
    /* position: absolute;
     bottom: 30%;*/
     text-align: center;
+    margin: 0px !important;
 }
 .reseaux {
     max-width: 100%;
