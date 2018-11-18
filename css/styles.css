@@ -1,25 +1,25 @@
 /* font converted using font-converter.net. thank you! */
 @font-face {
     font-family: "Gotham-Black";
-    src: url("./fonts/Gotham-Black.eot"); /* IE9 Compat Modes */
-    src: url("./fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-        url("./fonts/Gotham-Black.otf") format("opentype"), /* Open Type Font */
-        url("./fonts/Gotham-Black.svg") format("svg"), /* Legacy iOS */
-        url("./fonts/Gotham-Black.ttf") format("truetype"), /* Safari, Android, iOS */
-        url("./fonts/Gotham-Black.woff") format("woff"), /* Modern Browsers */
-        url("./fonts/Gotham-Black.woff2") format("woff2"); /* Modern Browsers */
+    src: url("../fonts/Gotham-Black.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+        url("../fonts/Gotham-Black.otf") format("opentype"), /* Open Type Font */
+        url("../fonts/Gotham-Black.svg") format("svg"), /* Legacy iOS */
+        url("../fonts/Gotham-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+        url("../fonts/Gotham-Black.woff") format("woff"), /* Modern Browsers */
+        url("../fonts/Gotham-Black.woff2") format("woff2"); /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
     }
     @font-face {
     font-family: "Gotham-Medium";
-    src: url("./fonts/Gotham-Medium.eot"); /* IE9 Compat Modes */
-    src: url("./fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-        url("./fonts/Gotham-Medium.otf") format("opentype"), /* Open Type Font */
-        url("./fonts/Gotham-Medium.svg") format("svg"), /* Legacy iOS */
-        url("./fonts/Gotham-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
-        url("./fonts/Gotham-Medium.woff") format("woff"), /* Modern Browsers */
-        url("./fonts/Gotham-Medium.woff2") format("woff2"); /* Modern Browsers */
+    src: url("../fonts/Gotham-Medium.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+        url("../fonts/Gotham-Medium.otf") format("opentype"), /* Open Type Font */
+        url("../fonts/Gotham-Medium.svg") format("svg"), /* Legacy iOS */
+        url("../fonts/Gotham-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+        url("../fonts/Gotham-Medium.woff") format("woff"), /* Modern Browsers */
+        url("../fonts/Gotham-Medium.woff2") format("woff2"); /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
     }
