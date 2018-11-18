@@ -56,14 +56,14 @@ html, body {
 .premiere {
     background-color: white;
     color: black;
-    font-size: 1.5em;
-    line-height: 0.75em;
-    padding-bottom: 10px;
-    padding-top: 15px;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
     text-align: center;
 }
 .willem {
-    font-weight: bold;
+    font-family: "Gotham-Black";
 }
 .concert {
     background-color: rgb(241,207,0);
