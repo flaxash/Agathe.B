@@ -32,6 +32,12 @@ html, body {
     width: 100%;
 
 }
+#top {
+    padding: 0px !important;
+}
+#down {
+    padding: 0px !important;
+}
 .video-js .vjs-big-play-button {
     position: absolute;
     top: 50% !important;

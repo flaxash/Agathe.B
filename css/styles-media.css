@@ -2,26 +2,8 @@
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-    #top {
-        height: 1439px !important;
-        background-image: url(../images/poster.jpg);
-        width: 100%;
-    }
-}
-#top {
-        background-image: url(../images/top@sm.jpg);
-        width: 100%;
-        background-size: cover;
-        min-height: 1439px !important;
-    
-    }
-.bottom {
-    background-image: url(../images/bottom@sm.jpg);
-    width: 100%;
-    background-size: cover;
-    min-height: 660px !important;
-}
+
+
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 
