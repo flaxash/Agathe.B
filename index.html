@@ -19,11 +19,16 @@
     <title>Agathe Bonin</title>
   </head>
   <body>
-    <div id="top" class="container-fluid">
+    <div id="top" class="container-fluid bottom">
         <picture>
           <source srcset="images/poster.jpg" media="(min-width: 768px)"/>
           <img class="img-fluid" src="images/top@sm.jpg" alt="top image"/>
         </picture>
+        <div class="col-12 img-center">
+            <img src="images/iconmonstr-video-15.png" alt="bouton play" />
+        </div>
+        
+   
         <!-- <img class="img-fluid" src="images/poster.jpg" />
         <video id="my-video" class="video-js vjs-default-skin vjs-16-9" controls preload="auto"
             poster="images/poster.jpg" data-setup="{'fluid': true}">
@@ -71,7 +76,16 @@
     </div>
     <div id="down" class="container-fluid bottom">
         <img class="img-fluid" src="images/bottom@sm.jpg" />
-        <div class="artiste col-12">AGATHE BONIN</div>
+        <div class="infosartiste col-12">
+            <div class="artiste col-12">AGATHE BONIN</div>
+            <div class="row icones container-fluid">
+                <div class="col-2 offset-2"><img  src="images/youtube.png" alt="bouton youtube" /></div>
+                <div class="col-2 "><img  src="images/facebook.png" alt="bouton facebook" /></div>
+                <div class="col-2 "><img  src="images/instagram.png" alt="bouton instagram" /></div>
+                <div class="col-2 "><img  src="images/soundcloud.png" alt="bouton soundcloud" /></div>
+            </div>
+        </div>
+        
     </div>
     <!-- VideoJs Javascript -->
     <script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
